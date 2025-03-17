@@ -1,0 +1,25 @@
+{
+    "cli": {
+      "appVersionSource": "remote"
+    },
+    "build": {
+      "development": {
+        "distribution": "internal",
+        "environment": "development",
+        "env": {
+            "EXPO_PUBLIC_APP_VARIANT": "development" 
+        }
+      },
+      "staging": {
+        "environment": "preview"
+      },
+      "production": {
+        "environment": "production"
+      }
+    },
+    "submit": {
+      "staging": {},
+      "production": {}
+    }
+  }
+  
